@@ -2,7 +2,7 @@ $bg-color:#333;
 $font-color:#fff;
 $primary-color:#008ed6;
 $dark-overlay: rgba(0,0,0,0.7);
-$font-size: 30px;
+$icon-size: 30px;
 
 body {
 	
@@ -53,8 +53,20 @@ body {
 		background: #fff;
 		padding: 4px;
 		border-radius: 5px;
-		font-size: $font-size;
-		
+		font-size: $icon-size;
+
 	}
 
+}
+
+#explore-section {
+	
+	.fa {
+
+		color: #fff;
+		background: #333;
+		padding: 4px;
+		border-radius: 5px;
+		font-size: $icon-size;
+	}
 }
