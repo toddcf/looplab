@@ -13,10 +13,33 @@
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
 
-	<h1>Bootstrap 4 Starter Pack</h1>
-	<p>Version 4.0.0-beta</p>
+<body id="home">
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<div class="container">
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+				span.navbar-toggler-icon
+			</button>
+			<a href="index.html" class="navbar-brand">LoopLAB</a>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav ml-auto"> <!-- ml-auto pushes it over to the right. -->
+					<li class="nav-item">
+						<a href="#home" class="nav-link">Home</a> <!-- Points to the body tag because that's the topmost element. -->
+					</li>
+					<li class="nav-item">
+						<a href="#explore-head-section" class="nav-link">Explore</a>
+					</li>
+					<li class="nav-item">
+						<a href="#create-head-section" class="nav-link">Create</a>
+					</li>
+					<li class="nav-item">
+						<a href="#share-head-section" class="nav-link">Share</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
