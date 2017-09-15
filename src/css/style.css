@@ -20,3 +20,11 @@ body {
     min-height: 700px; }
   #home-section .home-inner {
     padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.8; }
+  #home-section .fa {
+    color: #008ed6;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
