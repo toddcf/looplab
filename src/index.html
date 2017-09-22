@@ -20,7 +20,7 @@
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
 		<div class="container">
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-				span.navbar-toggler-icon
+				<span class="navbar-toggler-icon"></span>
 			</button>
 			<a href="index.html" class="navbar-brand">LoopLAB</a>
 			<div class="collapse navbar-collapse" id="navbarCollapse">
@@ -289,6 +289,37 @@
 			</div>
 		</div>
 	</footer>
+
+	<!-- CONTACT MODAL -->
+	<div class="modal fade text-dark" id="contactModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="contactModalTitle">Contact Us</h5>
+					<button class="close" data-dismiss="modal"><span>&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="name">Email</label>
+							<input type="email" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="name">Message</label>
+							<textarea class="form-control"></textarea>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-primary btn-block" data-dismiss="modal">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
